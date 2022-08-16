@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "projects": {
+    "auth": "libs/auth",
+    "common": "libs/common",
+    "core": "libs/core",
+    "modules-backstage": "libs/modules/backstage",
+    "modules-backstage-shared": "libs/modules/backstage-shared",
+    "modules-frontstage": "libs/modules/frontstage",
+    "test": "libs/test",
+    "utils": "libs/utils",
+    "veronica": "apps/veronica",
+    "veronica-e2e": "apps/veronica-e2e"
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
+}

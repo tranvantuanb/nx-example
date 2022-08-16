@@ -1,0 +1,146 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx", "import"],
+  "env": {
+    "es6": true
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "@nrwl/nx/enforce-module-boundaries": [
+          "error",
+          {
+            "enforceBuildableLibDependency": true,
+            "allow": [],
+            "depConstraints": [
+              {
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": ["*"]
+              },
+              {
+                "sourceTag": "scope:lib:module",
+                "notDependOnLibsWithTags": ["scope:lib:module"]
+              },
+              {
+                "sourceTag": "scope:lib:module-shared",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module-shared",
+                  "scope:lib:module"
+                ]
+              },
+              {
+                "sourceTag": "scope:lib:auth",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module-shared",
+                  "scope:lib:module"
+                ]
+              },
+              {
+                "sourceTag": "scope:lib:common",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module",
+                  "scope:lib:module-shared",
+                  "scope:lib:auth"
+                ]
+              },
+              {
+                "sourceTag": "scope:lib:core",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module",
+                  "scope:lib:module-shared",
+                  // "scope:lib:auth",
+                  "scope:lib:common"
+                ]
+              },
+              {
+                "sourceTag": "scope:lib:test",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module",
+                  "scope:lib:module-shared",
+                  "scope:lib:auth",
+                  "scope:lib:common",
+                  "scope:lib:core"
+                ]
+              },
+              {
+                "sourceTag": "scope:lib:utils",
+                "notDependOnLibsWithTags": [
+                  "scope:lib:module",
+                  "scope:lib:module-shared",
+                  "scope:lib:auth",
+                  "scope:lib:common",
+                  "scope:lib:core",
+                  "scope:lib:test"
+                ]
+              }
+            ]
+          }
+        ],
+        "@typescript-eslint/ban-ts-comment": [
+          "off",
+          {
+            "ts-ignore": "allow"
+          }
+        ],
+        "@typescript-eslint/no-empty-function": [
+          "error",
+          {
+            "allow": ["arrowFunctions"]
+          }
+        ],
+        "@typescript-eslint/ban-types": [
+          "error",
+          {
+            "extendDefaults": true,
+            "types": {
+              "{}": false
+            }
+          }
+        ],
+        "@typescript-eslint/no-duplicate-imports": ["error"]
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "plugin:@nrwl/nx/typescript",
+        "plugin:react/recommended",
+        "plugin:import/typescript"
+      ],
+      "rules": {
+        "no-duplicate-imports": "off",
+        "react/display-name": "off",
+        "react/prop-types": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "import/order": [
+          "error",
+          {
+            "pathGroups": [
+              {
+                "pattern": "@carro/**",
+                "group": "external",
+                "position": "after"
+              }
+            ],
+            "pathGroupsExcludedImportTypes": ["builtin"]
+          }
+        ],
+        "react/no-unescaped-entities": "off"
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nrwl/nx/javascript"],
+      "rules": {
+        "no-class-assign": "off",
+        "no-useless-escape": "off",
+        "no-prototype-builtins": "warn",
+        "no-irregular-whitespace": "warn",
+        "use-isnan": "warn"
+      }
+    }
+  ]
+}

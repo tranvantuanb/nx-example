@@ -1,0 +1,10 @@
+{
+  "name": "veronica",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start-server": "NODE_ENV=production NODE_RUNTIME=true node server/server.js"
+  }
+}

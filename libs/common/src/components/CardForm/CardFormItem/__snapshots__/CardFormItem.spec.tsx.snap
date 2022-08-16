@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardFormItem should render successfully 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(161,167,188,var(--tw-text-opacity));
+}
+
+.c2 {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<div>
+  <div
+    class="ant-col ant-col-24"
+  >
+    <div
+      class="ant-row c0 card-form-item-view-only"
+    >
+      <div
+        class="ant-col ant-col-8 c1"
+      />
+      <div
+        class="ant-col ant-col-16 c2"
+      />
+    </div>
+  </div>
+</div>
+`;

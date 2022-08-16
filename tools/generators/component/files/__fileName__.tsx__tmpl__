@@ -1,0 +1,12 @@
+import React from 'react';
+import tw, { styled } from 'twin.macro';
+
+export interface <%= fileName %>Props extends React.HTMLAttributes<HTMLDivElement> {
+
+}
+
+const Styled<%= fileName %> = styled.div``;
+
+export const <%= fileName %>: React.FC<<%= fileName %>Props> = React.memo((props) => {
+  return <Styled<%= fileName %> {...props} />;
+});

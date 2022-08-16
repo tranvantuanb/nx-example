@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/modules/backstage-shared/src",
+  "projectType": "library",
+  "tags": ["scope:lib:module-shared"],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/modules/backstage-shared",
+        "tsConfig": "libs/modules/backstage-shared/tsconfig.lib.json",
+        "project": "libs/modules/backstage-shared/package.json",
+        "entryFile": "libs/modules/backstage-shared/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "swc",
+        "assets": [
+          {
+            "glob": "libs/modules/backstage-shared/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/modules/backstage-shared/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/modules/backstage-shared"],
+      "options": {
+        "jestConfig": "libs/modules/backstage-shared/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

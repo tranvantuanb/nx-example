@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover should render successfully 1`] = `
+<div>
+  <span
+    class="css-1rrze6a-StyledPopover enbff0d0"
+  />
+</div>
+`;

@@ -1,0 +1,12 @@
+{
+	"Field is required.": "Bidang wajib diisi.",
+	"Field must be greater than 0.": "Bidang harus lebih besar dari 0.",
+	"Field must be greater than or equal to 0.": "Bidang harus lebih besar dari atau sama dengan 0.",
+	"Field must be integers.": "Bidang harus bilangan bulat.",
+	"Field must be numeric.": "Bidang harus numerik.",
+	"Field must be valid email address.": "Bidang harus alamat email yang valid.",
+	"Field must be valid phone number.": "Bidang harus nomor telepon yang valid.",
+	"Please enter only the last 4 characters of your NRIC": "Harap masukkan hanya 4 karakter terakhir dari NRIC Anda",
+	"Please provide phone number without space and any special character such as -": "Harap berikan nomor telepon tanpa spasi dan karakter khusus apa pun seperti -",
+	"Start with 0 or +6, total 10-12 digits": "Mulai dengan 0 atau +6, total 10-12 digit"
+}

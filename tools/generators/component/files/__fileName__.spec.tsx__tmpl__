@@ -1,0 +1,12 @@
+import { render } from '@carro/test';
+
+import { <%= fileName %>, <%= fileName %>Props } from './<%= fileName %>';
+
+describe('<%= fileName %>', () => {
+  it('should render successfully', () => {
+    const defaultProps: <%= fileName %>Props = {};
+    const { container } = render(< <%= fileName %> {...defaultProps} />);
+    expect(container).toBeTruthy();
+    expect(container).toMatchSnapshot();
+  });
+});

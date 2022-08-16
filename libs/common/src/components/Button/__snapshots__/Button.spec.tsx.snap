@@ -1,0 +1,1441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render successfully 1`] = `
+.c0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="ant-row"
+      style="margin: -16px -16px -16px -16px;"
+    >
+      <div
+        class="ant-col ant-col-xs-24 ant-col-lg-12 ant-col-xxl-8"
+        style="padding: 16px 16px 16px 16px;"
+      >
+        <div
+          class="ant-descriptions ant-descriptions-bordered"
+        >
+          <div
+            class="ant-descriptions-header"
+          >
+            <div
+              class="ant-descriptions-title"
+            >
+              PRIMARY BUTTON
+            </div>
+          </div>
+          <div
+            class="ant-descriptions-view"
+          >
+            <table>
+              <tbody>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Small
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-sm css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Small
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Large
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-lg css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Large
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-background-ghost css-1jr0kyf-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-12lzwze-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-145slsk-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-1tt3joj-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Text
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-1tt3joj-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Link
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1ud7rv4-StyleButton-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Text Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Link Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-24 ant-col-lg-12 ant-col-xxl-8"
+        style="padding: 16px 16px 16px 16px;"
+      >
+        <div
+          class="ant-descriptions ant-descriptions-bordered"
+        >
+          <div
+            class="ant-descriptions-header"
+          >
+            <div
+              class="ant-descriptions-title"
+            >
+              SECONDARY BUTTON
+            </div>
+          </div>
+          <div
+            class="ant-descriptions-view"
+          >
+            <table>
+              <tbody>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Small
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-sm css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Small
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Large
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-lg css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Large
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default css-15fwnth-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-background-ghost css-1jr0kyf-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-11f4sib-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1xcmp6a-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-1tt3joj-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Text
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-1tt3joj-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Link
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1ud7rv4-StyleButton-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Text Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Link Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-24 ant-col-lg-12 ant-col-xxl-8"
+        style="padding: 16px 16px 16px 16px;"
+      >
+        <div
+          class="ant-descriptions ant-descriptions-bordered"
+        >
+          <div
+            class="ant-descriptions-header"
+          >
+            <div
+              class="ant-descriptions-title"
+            >
+              SUCCESS BUTTON
+            </div>
+          </div>
+          <div
+            class="ant-descriptions-view"
+          >
+            <table>
+              <tbody>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Small
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-sm css-1mglz02-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Small
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Large
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-lg css-1mglz02-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Large
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default css-1mglz02-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-background-ghost css-1pxoewd-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-1mglz02-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1pxoewd-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-1uwpsin-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Text
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-1uwpsin-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Link
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1ud7rv4-StyleButton-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Text Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Link Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-24 ant-col-lg-12 ant-col-xxl-8"
+        style="padding: 16px 16px 16px 16px;"
+      >
+        <div
+          class="ant-descriptions ant-descriptions-bordered"
+        >
+          <div
+            class="ant-descriptions-header"
+          >
+            <div
+              class="ant-descriptions-title"
+            >
+              DANGER BUTTON
+            </div>
+          </div>
+          <div
+            class="ant-descriptions-view"
+          >
+            <table>
+              <tbody>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Small
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-sm css-1pfzeud-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Small
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Large
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-lg css-1pfzeud-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Large
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default css-1pfzeud-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Default Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-default ant-btn-background-ghost css-1f6zzwz-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Default Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-1pfzeud-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1f6zzwz-StyleButton-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Primary Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-1k6n6vs-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Text
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-1k6n6vs-StyleButton-StyleButton ewiole60"
+                        type="button"
+                      >
+                        <span>
+                          Link
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Primary Disabled Ghost
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-primary ant-btn-background-ghost css-1ud7rv4-StyleButton-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Primary Disabled Ghost
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Text Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-text css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Text Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <th
+                    class="ant-descriptions-item-label"
+                    colspan="1"
+                  >
+                    <span>
+                      Link Disabled
+                    </span>
+                  </th>
+                  <td
+                    class="ant-descriptions-item-content"
+                    colspan="1"
+                  >
+                    <span>
+                      <button
+                        class="ant-btn ant-btn-link css-4j3tcx-StyleButton ewiole60"
+                        disabled=""
+                        type="button"
+                      >
+                        <span>
+                          Link Disabled
+                        </span>
+                      </button>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

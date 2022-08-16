@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadButton should render successfully 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default css-15fwnth-StyleButton-StyleButton ewiole60"
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;

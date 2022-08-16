@@ -1,0 +1,39 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2019", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@carro/auth": ["libs/auth/src/index.ts"],
+      "@carro/auth/*": ["libs/auth/src/*"],
+      "@carro/backstage": ["libs/modules/backstage/src/index.ts"],
+      "@carro/backstage-shared": ["libs/modules/backstage-shared/src/index.ts"],
+      "@carro/backstage-shared/*": ["libs/modules/backstage-shared/src/*"],
+      "@carro/backstage/*": ["libs/modules/backstage/src/*"],
+      "@carro/common": ["libs/common/src/index.ts"],
+      "@carro/common/*": ["libs/common/src/*"],
+      "@carro/core": ["libs/core/src/index.ts"],
+      "@carro/core/*": ["libs/core/src/*"],
+      "@carro/frontstage": ["libs/modules/frontstage/src/index.ts"],
+      "@carro/frontstage/*": ["libs/modules/frontstage/src/*"],
+      "@carro/test": ["libs/test/src/index.ts"],
+      "@carro/test/*": ["libs/test/src/*"],
+      "@carro/utils": ["libs/utils/src/index.ts"],
+      "@carro/utils/*": ["libs/utils/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

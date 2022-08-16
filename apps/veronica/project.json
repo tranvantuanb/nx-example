@@ -1,0 +1,81 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/veronica",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/veronica",
+        "outputPath": "dist/apps/veronica"
+      },
+      "configurations": {
+        "production": {},
+        "qa": {},
+        "staging": {},
+        "staging-my": {}
+      },
+      "inputs": [
+        {"env": "APP_ENV"},
+        {"env": "API_URL"},
+        {"env": "MY_GTM_ID"},
+        {"env": "MY_GTM_AUTH"},
+        {"env": "RUDDER_STACK_WRITE_KEY"},
+        {"env": "RUDDER_STACK_DATA_PLAN_URL"},
+        {"env": "CARRO_WEB_CDN"},
+        {"env": "RECAPTCHA_SITE_KEY"},
+        {"env": "MY_CAPTAIN_URL"},
+        {"env": "MY_ALGOLIA_INDEX"},
+        {"env": "MY_ALGOLIA_APP_ID"},
+        {"env": "MY_ALGOLIA_API_KEY"},
+        {"env": "MY_STRAPI_URL"},
+        {"env": "MY_STRIPE_API_KEY_BUY_FLOW"},
+        {"env": "MY_WHATSAPP_NUMBER"}
+      ]
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "veronica:build",
+        "dev": true,
+        "customServerPath": "server/nx-server.js",
+        "port": 4000
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "veronica:build:production",
+          "dev": false
+        },
+        "development": {
+          "buildTarget": "veronica:build:development",
+          "dev": true
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "veronica:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/veronica"],
+      "options": {
+        "jestConfig": "apps/veronica/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/veronica/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": ["scope:app"]
+}

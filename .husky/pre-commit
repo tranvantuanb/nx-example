@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged
+yarn affected:lint
+yarn compile
+yarn compile-test
+#yarn affected:test --uncommitted --parallel=10
+git add .

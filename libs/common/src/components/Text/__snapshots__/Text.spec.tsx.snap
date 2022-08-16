@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render successfully 1`] = `
+.c0 {
+  display: block;
+}
+
+<div>
+  <span
+    class="ant-typography c0 css-14xdwh8-StyledText-StyledTextCaption emffahp0"
+  >
+    <strong>
+      Caption 14
+    </strong>
+  </span>
+  <span
+    class="ant-typography c0 css-1y6rxd5-StyledText-StyledTextCaption emffahp0"
+  >
+    <strong>
+      Caption 16
+    </strong>
+  </span>
+  <span
+    class="ant-typography c0 css-ehnkco-StyledText-StyledTextCaption emffahp0"
+  >
+    <strong>
+      Caption 18
+    </strong>
+  </span>
+  <span
+    class="ant-typography c0 css-1f8e10q-StyledText-StyledTextCaption emffahp0"
+  >
+    <strong>
+      Caption 24
+    </strong>
+  </span>
+</div>
+`;

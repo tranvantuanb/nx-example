@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "$id": "component",
+  "title": "Create a React Component",
+  "description": "Create a React Component for Nx.",
+  "type": "object",
+  "examples": [
+    {
+      "command": "yarn generate component Hello --project=modules-ticket",
+      "description": "Generate a component in the `modules-ticket` library"
+    }
+  ],
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "The name of the project.",
+      "alias": "p",
+      "$default": {
+        "$source": "projectName"
+      },
+      "x-prompt": "What is the name of the project for this component?"
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the component.",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What name would you like to use for the component?"
+    },
+    "directory": {
+      "type": "string",
+      "description": "Create the component under this directory (can be nested).",
+      "alias": "dir"
+    },
+    "export": {
+      "type": "boolean",
+      "description": "When true, the component is exported from the project `index.ts` (if it exists).",
+      "alias": "e",
+      "default": true
+    }
+  },
+  "required": ["name", "project"]
+}

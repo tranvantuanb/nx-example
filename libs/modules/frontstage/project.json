@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/modules/frontstage/src",
+  "projectType": "library",
+  "tags": [
+    "scope:lib:module"
+  ],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/libs/modules/frontstage",
+        "tsConfig": "libs/modules/frontstage/tsconfig.lib.json",
+        "project": "libs/modules/frontstage/package.json",
+        "entryFile": "libs/modules/frontstage/src/index.ts",
+        "external": [
+          "react/jsx-runtime"
+        ],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "swc",
+        "assets": [
+          {
+            "glob": "libs/modules/frontstage/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "libs/modules/frontstage/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/modules/frontstage"
+      ],
+      "options": {
+        "jestConfig": "libs/modules/frontstage/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

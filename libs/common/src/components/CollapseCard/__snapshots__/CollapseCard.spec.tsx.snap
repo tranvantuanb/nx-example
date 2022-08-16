@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapseCard should render successfully 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.c3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.c4 {
+  font-size: 14px;
+  line-height: 14px;
+  --tw-text-opacity: 1;
+  color: rgba(161,167,188,var(--tw-text-opacity));
+  margin-top: 8px;
+}
+
+<div>
+  <div
+    class="ant-collapse ant-collapse-icon-position-end css-pkcp1s-StyledCollapseCard eyl3bx71"
+  >
+    <div
+      class="ant-collapse-item"
+    >
+      <div
+        aria-expanded="false"
+        class="ant-collapse-header"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ant-collapse-expand-icon"
+        >
+          <div
+            class="ant-collapse-arrow css-pwgt72-StyledSVGIcon e81aohe0"
+          >
+            <div>
+              <div
+                data-src="/icons/arrow-down.svg"
+                src=""
+              />
+            </div>
+          </div>
+        </div>
+        <span
+          class="ant-collapse-header-text"
+        >
+          <div
+            class="c0 header-wrapper"
+          >
+            <div
+              class="c1"
+            >
+              <div
+                class="c2 header-icon"
+              >
+                <div
+                  class="css-150499d-StyledSVGIcon-StyledSVGIcon-StyledSVGIcon-StyledSVGIcon e81aohe0"
+                  color="black"
+                >
+                  <div>
+                    <div
+                      data-src="/icons/calendar.svg"
+                      src=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 header-content"
+              >
+                Header Title
+              </div>
+            </div>
+            <div
+              class="c4 subheader-content"
+            >
+              Subheader Content
+            </div>
+          </div>
+        </span>
+        <div
+          class="ant-collapse-extra"
+        >
+          <div>
+            <button>
+              Extra
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

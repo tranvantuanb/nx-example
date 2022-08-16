@@ -1,0 +1,70 @@
+{
+  "npmScope": "carro-veronica-mono-web",
+  "affected": {
+    "defaultBase": "main"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "OGE1NjlkZjAtYmRmMy00MWZjLWExNmQtMzFmYzhkZTM3NDQ1fHJlYWQ="
+      }
+    }
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "style": "styled-components",
+        "linter": "eslint",
+        "babel": true
+      },
+      "component": {
+        "style": "styled-components",
+        "export": true,
+        "pascalCaseDirectory": true,
+        "pascalCaseFiles": true,
+        "directory": "components"
+      },
+      "library": {
+        "style": "styled-components",
+        "linter": "eslint",
+        "tags": "scope:lib",
+        "buildable": true,
+        "importPath": "@carro/",
+        "pascalCaseFiles": true,
+        "compiler": "swc"
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "styled-components",
+        "linter": "eslint",
+        "e2eTestRunner": "cypress",
+        "server": "server/nx-server.js",
+        "tags": "scope:app"
+      }
+    }
+  },
+  "defaultProject": "veronica",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  }
+}

@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardForm should render successfully 1`] = `
+.c5 {
+  margin-top: 0px;
+}
+
+.c7 {
+  position: absolute;
+  top: -12px;
+  right: 0px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.c4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c8 {
+  display: block;
+}
+
+.c9 {
+  margin-bottom: 16px;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c11 {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(161,167,188,var(--tw-text-opacity));
+}
+
+.c12 {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 3.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+
+@media (min-width:376px) {
+  .c0 {
+    max-width: 376px;
+  }
+}
+
+@media (min-width:480px) {
+  .c0 {
+    max-width: 480px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 768px;
+  }
+}
+
+@media (min-width:976px) {
+  .c0 {
+    max-width: 976px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width:1536px) {
+  .c0 {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width:1800px) {
+  .c0 {
+    max-width: 1800px;
+  }
+}
+
+<div>
+  <section
+    class="ant-layout"
+  >
+    <main
+      class="ant-layout-content"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="ant-collapse ant-collapse-icon-position-end css-pkcp1s-StyledCollapseCard eyl3bx71"
+        >
+          <div
+            class="ant-collapse-item ant-collapse-item-active"
+          >
+            <div
+              aria-expanded="true"
+              class="ant-collapse-header"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="ant-collapse-expand-icon"
+              >
+                <div
+                  class="active ant-collapse-arrow css-pwgt72-StyledSVGIcon e81aohe0"
+                >
+                  <div>
+                    <div
+                      data-src="/icons/arrow-down.svg"
+                      src=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <span
+                class="ant-collapse-header-text"
+              >
+                <div
+                  class="c1 header-wrapper"
+                >
+                  <div
+                    class="c2"
+                  >
+                    <div
+                      class="c3 header-icon"
+                    >
+                      <div
+                        class="css-10v150v-StyledSVGIcon-StyledSVGIcon-StyledSVGIcon e81aohe0"
+                        color="black"
+                      >
+                        <div>
+                          <div
+                            data-src="/icons/person.svg"
+                            src=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c4 header-content"
+                    >
+                      Customer Input
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <div
+                class="ant-collapse-extra"
+              />
+            </div>
+            <div
+              class="ant-collapse-content ant-collapse-content-active"
+            >
+              <div
+                class="ant-collapse-content-box"
+              >
+                <div
+                  class="ant-divider ant-divider-horizontal c5 css-5qn4iy-Divider eyl3bx70"
+                  role="separator"
+                />
+                <div
+                  class="c6"
+                >
+                  <button
+                    class="c7"
+                  >
+                    <div
+                      class="css-na5dur-StyledSVGIcon-StyledSVGIcon e81aohe0"
+                    >
+                      <div>
+                        <div
+                          data-src="/icons/edit.svg"
+                          src=""
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <form
+                    class="ant-form ant-form-vertical"
+                  >
+                    <div
+                      class="css-1ijzjjj-StyledCardSection e5y6tk60"
+                    >
+                      <span
+                        class="ant-typography c8 c9 css-14xdwh8-StyledText-StyledTextCaption emffahp0"
+                      >
+                        <strong>
+                          Contact Details
+                        </strong>
+                      </span>
+                      <div
+                        class="ant-row"
+                        style="margin: -8px -8px -8px -8px;"
+                      >
+                        <div
+                          class="ant-col ant-col-24"
+                          style="padding: 8px 8px 8px 8px;"
+                        >
+                          <div
+                            class="ant-row c10 card-form-item-view-only"
+                          >
+                            <div
+                              class="ant-col ant-col-8 c11"
+                            >
+                              Name
+                            </div>
+                            <div
+                              class="ant-col ant-col-16 c12"
+                            >
+                              Cristiano Ronaldo
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col ant-col-24"
+                          style="padding: 8px 8px 8px 8px;"
+                        >
+                          <div
+                            class="ant-row c10 card-form-item-view-only"
+                          >
+                            <div
+                              class="ant-col ant-col-8 c11"
+                            >
+                              Contact Number
+                            </div>
+                            <div
+                              class="ant-col ant-col-16 c12"
+                            >
+                              7777 7777
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col ant-col-24"
+                          style="padding: 8px 8px 8px 8px;"
+                        >
+                          <div
+                            class="ant-row c10 card-form-item-view-only"
+                          >
+                            <div
+                              class="ant-col ant-col-8 c11"
+                            >
+                              Email
+                            </div>
+                            <div
+                              class="ant-col ant-col-16 c12"
+                            >
+                              manchester_united_are_rubbish@bbc.com
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="css-1ijzjjj-StyledCardSection e5y6tk60"
+                    >
+                      <span
+                        class="ant-typography c8 c9 css-14xdwh8-StyledText-StyledTextCaption emffahp0"
+                      >
+                        <strong>
+                          Ticket Data
+                        </strong>
+                      </span>
+                      <div
+                        class="ant-row"
+                        style="margin: -8px -8px -8px -8px;"
+                      >
+                        <div
+                          class="ant-col ant-col-24"
+                          style="padding: 8px 8px 8px 8px;"
+                        >
+                          <div
+                            class="ant-row c10 card-form-item-view-only"
+                          >
+                            <div
+                              class="ant-col ant-col-8 c11"
+                            >
+                              Slug
+                            </div>
+                            <div
+                              class="ant-col ant-col-16 c12"
+                            >
+                              QWERTY
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col ant-col-24"
+                          style="padding: 8px 8px 8px 8px;"
+                        >
+                          <div
+                            class="ant-row c10 card-form-item-view-only"
+                          >
+                            <div
+                              class="ant-col ant-col-8 c11"
+                            >
+                              Listing ID
+                            </div>
+                            <div
+                              class="ant-col ant-col-16 c12"
+                            >
+                              12345
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+</div>
+`;

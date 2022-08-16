@@ -1,0 +1,12 @@
+{
+    "Field is required.": "Field is required.",
+    "Field must be greater than 0.": "Field must be greater than 0.",
+    "Field must be greater than or equal to 0.": "Field must be greater than or equal to 0.",
+    "Field must be integers.": "Field must be integers.",
+    "Field must be numeric.": "Field must be numeric.",
+    "Field must be valid email address.": "Field must be valid email address.",
+    "Field must be valid phone number.": "Field must be valid phone number.",
+    "Please enter only the last 4 characters of your NRIC": "Please enter only the last 4 characters of your NRIC",
+    "Please provide phone number without space and any special character such as -": "Please provide phone number without space and any special character such as -",
+    "Start with 0 or +6, total 10-12 digits": "Start with 0 or +6, total 10-12 digits"
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render successfully 1`] = `
+<div>
+  <label
+    class="ant-checkbox-wrapper css-1iv9iew-StyledCheckbox eu8bm9l0"
+  >
+    <span
+      class="ant-checkbox"
+    >
+      <input
+        class="ant-checkbox-input"
+        type="checkbox"
+        value=""
+      />
+      <span
+        class="ant-checkbox-inner"
+      />
+    </span>
+  </label>
+</div>
+`;

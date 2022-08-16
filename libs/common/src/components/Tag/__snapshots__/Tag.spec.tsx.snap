@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should render successfully 1`] = `
+<div>
+  <span
+    class="ant-tag css-aagv2w-StyledTag e89vvex0"
+  />
+</div>
+`;

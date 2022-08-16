@@ -1,0 +1,12 @@
+{
+	"Field is required.": "字段是必需的。",
+	"Field must be greater than 0.": "字段必須大於 0。",
+	"Field must be greater than or equal to 0.": "字段必須大於或等於 0。",
+	"Field must be integers.": "字段必須是整數。",
+	"Field must be numeric.": "字段必須是數字。",
+	"Field must be valid email address.": "字段必須是有效的電子郵件地址。",
+	"Field must be valid phone number.": "字段必須是有效的電話號碼。",
+	"Please enter only the last 4 characters of your NRIC": "請僅輸入您身份證的最後 4 個字符",
+	"Please provide phone number without space and any special character such as -": "請提供不帶空格和任何特殊字符的電話號碼，例如 -",
+	"Start with 0 or +6, total 10-12 digits": "以 0 或 +6 開頭，共 10-12 位"
+}

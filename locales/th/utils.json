@@ -1,0 +1,12 @@
+{
+	"Field is required.": "ต้องระบุฟิลด์",
+	"Field must be greater than 0.": "ช่องต้องมากกว่า 0",
+	"Field must be greater than or equal to 0.": "ช่องต้องมากกว่าหรือเท่ากับ 0",
+	"Field must be integers.": "ฟิลด์ต้องเป็นจำนวนเต็ม",
+	"Field must be numeric.": "ช่องต้องเป็นตัวเลข",
+	"Field must be valid email address.": "ช่องต้องเป็นที่อยู่อีเมลที่ถูกต้อง",
+	"Field must be valid phone number.": "ช่องต้องเป็นหมายเลขโทรศัพท์ที่ถูกต้อง",
+	"Please enter only the last 4 characters of your NRIC": "โปรดป้อนเฉพาะอักขระ 4 ตัวสุดท้ายของ NRIC . ของคุณ",
+	"Please provide phone number without space and any special character such as -": "โปรดระบุหมายเลขโทรศัพท์โดยไม่เว้นวรรคและอักขระพิเศษ เช่น -",
+	"Start with 0 or +6, total 10-12 digits": "เริ่มต้นด้วย 0 หรือ +6 รวม 10-12 หลัก"
+}

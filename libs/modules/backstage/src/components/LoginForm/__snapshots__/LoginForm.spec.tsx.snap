@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm should render successfully 1`] = `
+<div>
+  <div
+    css="[object Object]"
+  >
+    <div
+      class="css-1a6tac2"
+    >
+      <div
+        css="[object Object]"
+      >
+        <img
+          alt="veronica"
+          css="[object Object]"
+          src="/img/veronica-logo.svg"
+        />
+      </div>
+      <div
+        css="[object Object]"
+      >
+        Welcome back!
+      </div>
+      <div
+        css="[object Object]"
+      >
+        <span>
+          Don’t have an account yet?
+        </span>
+        <a
+          css="[object Object]"
+          href="#"
+        >
+          Create one!
+        </a>
+      </div>
+    </div>
+    <div
+      css="[object Object]"
+    >
+      <form
+        class="ant-form ant-form-vertical"
+        id="login-form"
+      >
+        <div
+          class="ant-row"
+          style="margin: -8px -8px -8px -8px;"
+        >
+          <div
+            class="ant-col ant-col-24"
+            style="padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="ant-row ant-form-item css-9i9zmh-StyledFormItem e1pqsrmx0"
+            >
+              <div
+                class="ant-col ant-form-item-label"
+              >
+                <label
+                  class=""
+                  for="login-form_email"
+                  title="Email"
+                >
+                  Email
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <input
+                      class="ant-input css-13ito7b-StyledInput e6ii1nn1"
+                      id="login-form_email"
+                      placeholder="Email"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-24 password-input"
+            style="padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="ant-row ant-form-item css-9i9zmh-StyledFormItem e1pqsrmx0"
+            >
+              <div
+                class="ant-col ant-form-item-label"
+              >
+                <label
+                  class=""
+                  for="login-form_password"
+                  title=""
+                >
+                  <div
+                    class="password"
+                  >
+                    <span>
+                      Password
+                    </span>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <input
+                      class="ant-input css-13ito7b-StyledInput e6ii1nn1"
+                      id="login-form_password"
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-24"
+            style="padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="ant-row ant-form-item css-9i9zmh-StyledFormItem e1pqsrmx0"
+            >
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <label
+                      class="ant-checkbox-wrapper ant-checkbox-wrapper-in-form-item css-1iv9iew-StyledCheckbox eu8bm9l0"
+                    >
+                      <span
+                        class="ant-checkbox"
+                      >
+                        <input
+                          class="ant-checkbox-input"
+                          type="checkbox"
+                          value=""
+                        />
+                        <span
+                          class="ant-checkbox-inner"
+                        />
+                      </span>
+                      <span>
+                        Remember me on this device
+                        !
+                      </span>
+                    </label>
+                    <a
+                      css="[object Object]"
+                      href="#"
+                    >
+                      Forgot password
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-24"
+            style="padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="ant-row ant-form-item css-9i9zmh-StyledFormItem e1pqsrmx0"
+            >
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <button
+                      class="ant-btn ant-btn-primary ant-btn-block backstage-primary-btn css-4j3tcx-StyleButton ewiole60"
+                      disabled=""
+                      type="submit"
+                    >
+                      <span>
+                        Sign in
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-24"
+            style="padding: 8px 8px 8px 8px;"
+          >
+            <div
+              class="ant-row ant-form-item css-9i9zmh-StyledFormItem e1pqsrmx0"
+            >
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
